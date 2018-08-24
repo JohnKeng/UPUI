@@ -1,6 +1,6 @@
 # UPUI
 
-1, Reset
+1, Reset 
 
 2, 12 Column Grid - % VS flex
 
