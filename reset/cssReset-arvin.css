@@ -1,0 +1,85 @@
+
+body{
+  margin: 0;
+}
+h1,h2,h3,h4,h5,h6,dl{
+  margin: .2em 0;
+  -webkit-margin-before: .2em;
+  -webkit-margin-after: .2em;
+}
+h1{
+  font-size: 2.5em;
+}
+h2{
+  font-size: 2.2em;
+}
+h3{
+  font-size: 1.9em;
+}
+h4{
+  font-size: 1.6em;
+}
+h5{
+  font-size: 1.3em;
+}
+h6{
+  font-size: 1.1em;
+}
+p{
+  font-size: 1em;
+  margin: 0;
+  -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+}
+ol,ul{
+  font-size: 1em;
+  margin: .5em 0;
+  padding-left: 1.4em;
+  -webkit-margin-before: .5em;
+  -webkit-margin-after: .5em;
+  -webkit-padding-start: 1.4em;
+}
+ul{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+  font-size: 1em;
+  display: block;
+}
+a:focus{
+  outline: none;
+}
+svg{
+  width: 1em;
+  height: 1em;
+}
+button,input[type="button"],input[type="submit"]{
+  cursor: pointer;
+  border: none;
+  font-size: 1em;
+  padding: .5em 1.5em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+button:focus,input[type="button"]:focus,input[type="submit"]:focus{
+  outline: none;
+}
+input[type="checkbox"]{
+  width: 1.3em;
+  height: 1.3em;
+  margin: 0 .5em;
+}
+input[type="radio"]{
+  margin: 0 1em 0 0;
+}
+textarea{
+  resize: none;
+}
