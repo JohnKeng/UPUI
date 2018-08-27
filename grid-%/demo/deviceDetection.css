@@ -1,0 +1,86 @@
+@-ms-viewport {
+    width: device-width;
+}
+
+.deviceDetection {
+    height: 30px;
+    opacity: 0.8;
+    position: fixed;
+    width: 27px;
+    top: 0;
+    z-index: 99999;
+}
+
+.deviceDetection:after {
+    color: #fff;
+    content: 'A';
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 30px;
+    padding-left: 5px;
+    text-align: left;
+}
+
+/* ------------------------------- DEVICE A from 0 to 639px ------------------------------- */
+
+@media (min-width: 0em) {
+    .deviceDetection {
+        background: red;
+    }
+}
+
+/* ------------------------------- DEVICE B from 640px to 1023px ------------------------------- */
+
+@media (min-width: 40em) {
+    .deviceDetection {
+        background: blue;
+    }
+    .deviceDetection:after {
+        content: 'B';
+    }
+}
+
+/* ------------------------------- DEVICE C from 1024px to 1439px orange ------------------------------- */
+
+@media (min-width: 64em) {
+    .deviceDetection {
+        background: orange;
+    }
+    .deviceDetection:after {
+        content: 'C';
+    }
+}
+
+/* ------------------------------- DEVICE D from 90em to 119.999em - from 1440px to 1919px ------------------------------- */
+
+@media (min-width: 90em) {
+    .deviceDetection {
+        background: green;
+    }
+    .deviceDetection:after {
+        content: 'D';
+    }
+}
+
+/* ------------------------------- DEVICE E from 1920px to 2559px ------------------------------- */
+
+@media (min-width: 120em) {
+    .deviceDetection {
+        background: grey;
+    }
+    .deviceDetection:after {
+        content: 'E';
+    }
+}
+
+/* ------------------------------- DEVICE F from 2560px to up ------------------------------- */
+
+@media (min-width: 160em) {
+    .deviceDetection {
+        background: black;
+    }
+    .deviceDetection:after {
+        content: 'F';
+    }
+}
