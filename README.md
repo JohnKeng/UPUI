@@ -4,6 +4,10 @@
 
 # UPUI
 
+UPUI is a styleless look and feel. It doesn’t rely on any frameworks and aims to optimize for cross-device use, lets you focus your UI/UX design, and offer an experience that is immediately accessible.
+
+內容包含但不限於：
+
 1, Reset Normalize CSS
 認識 HTML tags 並將不同瀏覽器預設的樣式統一。 
 基礎的 css 與 html 知識可以在這裡觀察到： block-level elements 與 inline elements、偽元素與偽類、 多元素組合選擇器...等。
