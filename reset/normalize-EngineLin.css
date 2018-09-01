@@ -1,0 +1,32 @@
+/* Information for browser default css from https://www.w3schools.com/cssref/css_default_values.asp */
+
+/* 將本身會帶有 padding, margin 的標籤歸零，因為各個瀏覽器對其數值設定可能有差異 */
+html, body,
+ol, ul, li, form,
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+/* 文件調查到有預設 margin, padding，但是實作上還沒用到過的標籤，拆過來這邊放 */
+dl, dd, fieldset, figure, pre, legend, menu {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+/* 同一文字類標籤的高度 */
+h1, h2, h3, h4, h5, h6, p {
+  line-height: 1;
+}
+
+/* hr 的 margin-left & margin-right auto 不變，上下歸零 */
+hr {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+b {
+  font-weight: 500; /* margin: bold*/
+}
