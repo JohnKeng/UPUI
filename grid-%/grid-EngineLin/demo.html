@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Grid System Demo</title>
+  <link rel="stylesheet" href="./grid.css">
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col col-3"></div>
+      <div class="col col-3"></div>
+      <div class="col col-3"></div>
+      <div class="col col-3"></div>
+    </div>
+  </div>
+</body>
+<style>
+  body {
+    background-color: #f7f7f7;
+  }
+  .col[class~="col-3"] {
+    border: 1px solid;
+    background-color: skyblue;
+    height: 100px;
+  }
+</style>
+</html>
