@@ -10,12 +10,13 @@ UPUI is a styleless look and feel. It doesn’t rely on any frameworks and aims 
 
 1, Reset Normalize CSS
 認識 HTML tags 並將不同瀏覽器預設的樣式統一。 
-基礎的 css 與 html 知識可以在這裡觀察到： block-level elements 與 inline elements、偽元素與偽類、 多元素組合選擇器...等。
+基礎的 css 與 html 知識可以從這觀察到： block-level elements 與 inline elements、偽元素與偽類、 多元素組合選擇器...等。
 [參考資料](https://github.com/JohnKeng/UPUI/issues/1)
 
-2, 12 Column Grid Center Grid- % VS flex
+2, 12 Column Grid - % VS flex
 實作css的佈局與定位、尺寸比例之關係，flow、layer、flex、grid、position ...等。
-探討常見的置中版型，一般網路上的 css framwork 大多是齊左佈局，我的經驗中最常遇到的反而是置中為主的設計方式，如何設計出置中為主的 grid。
+探討常見的置中版型，一般網路上的 css framwork 大多是齊左佈局。以及經驗中最常遇到的置中為主的設計方式，如何設計出置中為主的 grid。
+[參考資料](https://github.com/JohnKeng/UPUI-Practice/issues/4)
 
 3, Layout
 常用版型實作
