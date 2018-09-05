@@ -52,7 +52,7 @@
     }
 }
 
-/* ------------------------------- DEVICE D from 90em to 119.999em - from 1440px to 1919px ------------------------------- */
+/* ------------------------------- DEVICE D from 90em to 119.999em - from 1440px to 1679px ------------------------------- */
 
 @media (min-width: 90em) {
     .deviceDetection {
@@ -63,9 +63,9 @@
     }
 }
 
-/* ------------------------------- DEVICE E from 1920px to 2559px ------------------------------- */
+/* ------------------------------- DEVICE E from 1680px to 1919px ------------------------------- */
 
-@media (min-width: 120em) {
+@media (min-width: 105em) {
     .deviceDetection {
         background: grey;
     }
@@ -74,9 +74,9 @@
     }
 }
 
-/* ------------------------------- DEVICE F from 2560px to up ------------------------------- */
+/* ------------------------------- DEVICE F from 1920px to up ------------------------------- */
 
-@media (min-width: 160em) {
+@media (min-width: 120em) {
     .deviceDetection {
         background: black;
     }
