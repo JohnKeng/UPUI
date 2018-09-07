@@ -1,0 +1,53 @@
+@import './_break-point';
+
+.container {
+  margin: 0 auto;
+  width: 90%;
+  @include break-point($landscape) { width: 85%; };
+  @include break-point($table) { width: 75%; };
+  @include break-point($desktop) { width: 65%; };
+  @include break-point($large-desktop) { width: 55%; };
+}
+
+.container-fluid {
+  width: 100%;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.row > .col {
+  border: 1px solid #d6b161;
+  background-color: #222;
+  height: 50px;
+  font-size: 2rem;
+  text-align: center;
+  line-height: 50px;
+  color: #d6b161;
+  flex: 1;
+  @for $i from 1 through 12 {
+    &.a-#{$i} { min-width: ($i / 12 * 100%); }
+  }
+  @include break-point($landscape) {
+    @for $i from 1 through 12 {
+      &.b-#{$i} { min-width: ( $i / 12 * 100%); }
+    }
+  }
+  @include break-point($table) {
+    @for $i from 1 through 12 {
+      &.c-#{$i} { min-width: ( $i / 12 * 100%); }
+    }
+  }
+  @include break-point($desktop) {
+    @for $i from 1 through 12 {
+      &.d-#{$i} { min-width: ( $i / 12 * 100%); }
+    }
+  }
+  @include break-point($large-desktop) {
+    @for $i from 1 through 12 {
+      &.e-#{$i} { max-width: ( $i / 12 * 100%); }
+    }
+  }
+}
